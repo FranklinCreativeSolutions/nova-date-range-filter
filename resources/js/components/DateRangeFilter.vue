@@ -121,7 +121,7 @@ export default {
         filterClass: this.filterKey,
         value,
       });
-      this.$emit('change')
+      Nova.$emit('change')
     },
   }
 }
