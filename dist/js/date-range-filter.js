@@ -764,7 +764,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         value: value
       });
       this.$emit('change');
-      Nova.$emit('action-executed', console.log('update chart'));
+      Nova.$emit('action-executed');
     }
   }
 });
