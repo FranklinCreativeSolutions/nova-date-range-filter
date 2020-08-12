@@ -121,7 +121,8 @@ export default {
         filterClass: this.filterKey,
         value,
       });
-      this.$emit('change')
+      this.$emit('change');
+      Nova.$emit('action-executed',console.log('update chart'));
     },
   }
 }
