@@ -122,7 +122,7 @@ export default {
         value,
       });
       this.$emit('change');
-      Nova.$emit('action-executed',console.log('update chart'));
+      //Nova.$emit('action-executed',console.log('update chart'));
     },
   }
 }
